@@ -1,0 +1,62 @@
+(.venv) C:\Users\David\Downloads>cd openai_api_python_test
+
+(.venv) C:\Users\David\Downloads\openai_api_python_test>python -m pip install --
+upgrade pip
+Requirement already satisfied: pip in C:\Users\David\.venv\Lib\site-packages (26
+.3)
+
+(.venv) C:\Users\David\Downloads\openai_api_python_test>python -m pip install -r
+ requirements.txt
+Requirement already satisfied: openai>=2.0.0 in C:\Users\David\.venv\Lib\site-pa
+ckages (from -r requirements.txt (line 1)) (3.46.0)
+Requirement already satisfied: python-dotenv>=1.0.1 in C:\Users\David\.venv\Lib\
+site-packages (from -r requirements.txt (line 2)) (1.2.4)
+Requirement already satisfied: anyio<5,>=4.10.0 in C:\Users\David\.venv\Lib\site
+-packages (from openai>=2.0.0->-r requirements.txt (line 1)) (4.16.0)
+Requirement already satisfied: httpx2<3,>=2.12.0 in C:\Users\David\.venv\Lib\sit
+e-packages (from openai>=2.0.0->-r requirements.txt (line 1)) (2.16.0)
+Requirement already satisfied: jiter<1,>=0.16.0 in C:\Users\David\.venv\Lib\site
+-packages (from openai>=2.0.0->-r requirements.txt (line 1)) (0.18.0)
+Requirement already satisfied: pydantic!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,<3,>=1.10
+.13 in C:\Users\David\.venv\Lib\site-packages (from openai>=2.0.0->-r requiremen
+ts.txt (line 1)) (2.14.3)
+Requirement already satisfied: sniffio in C:\Users\David\.venv\Lib\site-packages
+ (from openai>=2.0.0->-r requirements.txt (line 1)) (1.3.1)
+Requirement already satisfied: typing-extensions<5,>=4.14 in C:\Users\David\.ven
+v\Lib\site-packages (from openai>=2.0.0->-r requirements.txt (line 1)) (4.16.0)
+Requirement already satisfied: idna>=2.8 in C:\Users\David\.venv\Lib\site-packag
+es (from anyio<5,>=4.10.0->openai>=2.0.0->-r requirements.txt (line 1)) (3.20)
+Requirement already satisfied: httpcore2==2.16.0 in C:\Users\David\.venv\Lib\sit
+e-packages (from httpx2<3,>=2.12.0->openai>=2.0.0->-r requirements.txt (line 1))
+ (2.16.0)
+Requirement already satisfied: truststore>=0.10 in C:\Users\David\.venv\Lib\site
+-packages (from httpx2<3,>=2.12.0->openai>=2.0.0->-r requirements.txt (line 1))
+(0.10.5)
+Requirement already satisfied: h11>=0.16 in C:\Users\David\.venv\Lib\site-packag
+es (from httpcore2==2.16.0->httpx2<3,>=2.12.0->openai>=2.0.0->-r requirements.tx
+t (line 1)) (0.16.0)
+Requirement already satisfied: annotated-types>=0.6.0 in C:\Users\David\.venv\Li
+b\site-packages (from pydantic!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,<3,>=1.10.13->open
+ai>=2.0.0->-r requirements.txt (line 1)) (0.8.0)
+Requirement already satisfied: pydantic-core==2.50.4 in C:\Users\David\.venv\Lib
+\site-packages (from pydantic!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,<3,>=1.10.13->opena
+i>=2.0.0->-r requirements.txt (line 1)) (2.50.4)
+Requirement already satisfied: typing-inspection>=0.4.4 in C:\Users\David\.venv\
+Lib\site-packages (from pydantic!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,<3,>=1.10.13->op
+enai>=2.0.0->-r requirements.txt (line 1)) (0.4.4)
+
+(.venv) C:\Users\David\Downloads\openai_api_python_test>python main.py
+Testing OpenAI API with model: gpt-5.5
+Sending request...
+
+Rate limit or quota error. Check project billing, available credits, and rate li
+mits in the OpenAI Platform.
+
+(.venv) C:\Users\David\Downloads\openai_api_python_test>python main.py
+Testing OpenAI API with model: gpt-5.5
+Sending request...
+
+Rate limit or quota error. Check project billing, available credits, and rate li
+mits in the OpenAI Platform.
+
+(.venv) C:\Users\David\Downloads\openai_api_python_test>
