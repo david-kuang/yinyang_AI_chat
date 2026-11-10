@@ -1,0 +1,39 @@
+import os
+from openai import OpenAI
+
+# Initialize the client with DeepSeek's base URL
+client = OpenAI(
+    api_key=os.environ.get("DEEPSEEK_API_KEY"),
+    base_url="https://api.deepseek.com"
+)
+
+def test_api_key():
+    print("Testing DeepSeek API key...")
+    
+    try:
+        response = client.chat.completions.create(
+            model="deepseek-chat",  # Current standard model name
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant."},
+                {"role": "user", "content": "Hello! Reply with 'API key is working' if you receive this."}
+            ],
+            stream=False,
+            max_tokens=50
+        )
+        
+        # Extract and print the response
+        reply = response.choices[0].message.content
+        print("\n✅ Success! Server responded:")
+        print(f"   {reply}")
+        print(f"\n   Model used: {response.model}")
+        print(f"   Tokens used: {response.usage.total_tokens}")
+        
+    except Exception as e:
+        print(f"\n❌ Failed to connect. Error: {e}")
+        print("\nChecklist:")
+        print("1. Is your DEEPSEEK_API_KEY environment variable set correctly?")
+        print("2. Do you have internet access to api.deepseek.com?")
+        print("3. Is your API key active and does it have sufficient balance?")
+
+if __name__ == "__main__":
+    test_api_key()
