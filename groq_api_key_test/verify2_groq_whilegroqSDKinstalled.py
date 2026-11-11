@@ -14,7 +14,9 @@ def verify_groq_key():
         client = Groq(api_key=api_key)
 
         response = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+#            model="llama-3.3-70b-versatile",
+#            model="llama-3.1-8b-instant",
+            model="openai/gpt-oss-20b",
             messages=[
                 {"role": "user", "content": "Reply with OK"}
             ],
