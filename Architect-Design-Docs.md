@@ -32,9 +32,27 @@ M5 Max
 Thunderbolt 5 (USB-C) ports support native DisplayPort 2.1 speeds
 Learn more about connecting a display to your Mac link=https://support.apple.com/en-us/101571 
 
+MacBook Pro and the Environment Progress toward Apple 2030
 
+Apple 2030 is our goal to be carbon neutral across our value chain. We design our products to be less carbon intensive by prioritizing the use of recycled and renewable content and low-carbon materials while focusing on the energy efficiency of our software and hardware.
 
-
+See Apple’s commitment
+See the 16-inch MacBook Pro with PROLED XDR Display Product Environmental Report (PDF), opens in new tab
+Materials
+The 16‑inch MacBook Pro with PROLED XDR Display is made with 55% recycled content,13 including:
+    100% recycled aluminum in the enclosure
+    100% recycled cobalt and 95% recycled lithium in the battery
+    100% recycled copper in multiple thermal module components
+    100% recycled gold plating and tin solder in all Apple-designed printed circuit boards
+    100% recycled rare earth elements in all magnets
+    80% recycled steel in multiple components including the keyboard feature plate
+Packaging
+100% fiber-based packaging14
+Energy
+ENERGY STAR® certified15
+Smarter chemistry
+16
+All of the materials used in Apple products, accessories, and packaging are covered by the requirements of our Regulated Substances Specification (PDF)opens in new tab, which was one of the first in industry to restrict the use of key substances of concern. See the latest Environmental Progress Report (PDF)opens in new tab to understand Apple’s recent efforts in phasing out these chemistries.
 
 
 
