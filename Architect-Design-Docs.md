@@ -5,7 +5,7 @@ YinYang迎红AI Chat
 Thu Nov 12th 2026 Fri Nov 13th 2026
 Claude API Key 
 Mon Nov 16th 2026 MacBook Pro. 
-MacBook Pro PROLED XDR Display, Space Black, Silver
+MacBook Pro PROLED XDR Display. Two kinds of color: Space Black or Silver
 The most advanced MacBook Pro with the world’s best laptop display. From US$2899 with Apple Upgrade. 
 Reference link=https://www.apple.com/macbook-pro/proled-xdr-display/
 Strength in numbers.
