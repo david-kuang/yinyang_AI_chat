@@ -54,6 +54,48 @@ Smarter chemistry
 16
 All of the materials used in Apple products, accessories, and packaging are covered by the requirements of our Regulated Substances Specification (PDF)opens in new tab, which was one of the first in industry to restrict the use of key substances of concern. See the latest Environmental Progress Report (PDF)opens in new tab to understand Apple’s recent efforts in phasing out these chemistries.
 
+Tue Nov 17th 2026
+ Built-in Apps12
+App Store
+Books
+Calendar
+Contacts
+FaceTime
+Find My
+Freeform
+Games
+GarageBand
+Home
+iMovie
+iPhone Mirroring
+Journal
+Keynote
+Mail
+Maps
+Messages
+Music
+News
+Notes
+Numbers
+Pages
+Passwords
+Phone
+Photo Booth
+Photos
+Podcasts
+Preview
+QuickTime Player
+Reminders
+Safari
+Shortcuts
+Stocks
+Time Machine
+Tips
+TV
+Voice Memos
+Weather
+
+
 
 
 
